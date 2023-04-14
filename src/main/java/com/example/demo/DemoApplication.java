@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
+		String str = "";
+
+		str.toLowerCase();
+
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
